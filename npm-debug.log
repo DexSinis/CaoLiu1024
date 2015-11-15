@@ -1,0 +1,117 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/a000/nvm/versions/node/v4.1.2/bin/node',
+1 verbose cli   '/Users/a000/nvm/versions/node/v4.1.2/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.4
+3 info using node@v4.1.2
+4 verbose readDependencies loading dependencies from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/package.json
+5 warn package.json lesson03@1.0.0 No description
+6 warn package.json lesson03@1.0.0 No repository field.
+7 warn package.json lesson03@1.0.0 No README data
+8 verbose install where, deps [ '/Users/a000/IDE/Blog/backup/node/node-lessons/lesson03',
+8 verbose install   [ 'async', 'cheerio', 'express', 'superagent' ] ]
+9 verbose install where, peers [ '/Users/a000/IDE/Blog/backup/node/node-lessons/lesson03', [] ]
+10 verbose installManyTop reading for lifecycle /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/package.json
+11 info preinstall lesson03@1.0.0
+12 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/async/package.json
+13 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/cheerio/package.json
+14 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/eventproxy/package.json
+15 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/express/package.json
+16 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/mkdirp/package.json
+17 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent/package.json
+18 verbose installManyTop reading scoped package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent-charset/package.json
+19 info package.json cheerio@0.17.0 No license field.
+20 info package.json superagent@0.20.0 No license field.
+21 verbose readDependencies loading dependencies from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/package.json
+22 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/async/package.json
+23 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/cheerio/package.json
+24 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/eventproxy/package.json
+25 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/express/package.json
+26 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/mkdirp/package.json
+27 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent/package.json
+28 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent-charset/package.json
+29 verbose targetResolver reading package data from /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin/mkdirp/package.json
+30 verbose already installed skipping superagent@^0.20.0 /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+31 verbose already installed skipping async@^1.3.0 /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+32 verbose already installed skipping cheerio@^0.17.0 /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+33 verbose already installed skipping express@^4.9.5 /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+34 silly install resolved []
+35 info build /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+36 info linkStuff lesson03@1.0.0
+37 silly linkStuff lesson03@1.0.0 has /Users/a000/IDE/Blog/backup/node/node-lessons as its parent node_modules
+38 verbose linkBins lesson03@1.0.0
+39 verbose linkMans lesson03@1.0.0
+40 verbose rebuildBundles lesson03@1.0.0
+41 verbose rebuildBundles [ '.bin',
+41 verbose rebuildBundles   'async',
+41 verbose rebuildBundles   'cheerio',
+41 verbose rebuildBundles   'eventproxy',
+41 verbose rebuildBundles   'express',
+41 verbose rebuildBundles   'mkdirp',
+41 verbose rebuildBundles   'superagent',
+41 verbose rebuildBundles   'superagent-charset' ]
+42 verbose rebuild bundle /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/eventproxy
+43 info build /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/eventproxy
+44 info preinstall eventproxy@0.3.4
+45 info linkStuff eventproxy@0.3.4
+46 silly linkStuff eventproxy@0.3.4 has /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules as its parent node_modules
+47 verbose linkBins eventproxy@0.3.4
+48 verbose linkMans eventproxy@0.3.4
+49 verbose rebuildBundles eventproxy@0.3.4
+50 verbose rebuildBundles [ 'debug' ]
+51 info install eventproxy@0.3.4
+52 info postinstall eventproxy@0.3.4
+53 verbose rebuild bundle /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/mkdirp
+54 info build /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/mkdirp
+55 info preinstall mkdirp@0.5.1
+56 info linkStuff mkdirp@0.5.1
+57 silly linkStuff mkdirp@0.5.1 has /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules as its parent node_modules
+58 verbose linkBins mkdirp@0.5.1
+59 verbose link bins [ { mkdirp: 'bin/cmd.js' },
+59 verbose link bins   '/Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin',
+59 verbose link bins   false ]
+60 verbose linkMans mkdirp@0.5.1
+61 verbose rebuildBundles mkdirp@0.5.1
+62 verbose rebuildBundles [ 'minimist' ]
+63 silly gentlyRm /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin/mkdirp is being purged
+64 verbose gentlyRm don't care about contents; nuking /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin/mkdirp
+65 silly vacuum-fs purging /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin/mkdirp
+66 silly vacuum-fs removing /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/.bin
+67 silly vacuum-fs quitting because other entries in /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules
+68 info install mkdirp@0.5.1
+69 info postinstall mkdirp@0.5.1
+70 verbose rebuild bundle /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent-charset
+71 info build /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules/superagent-charset
+72 info preinstall superagent-charset@0.1.1
+73 info linkStuff superagent-charset@0.1.1
+74 silly linkStuff superagent-charset@0.1.1 has /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/node_modules as its parent node_modules
+75 verbose linkBins superagent-charset@0.1.1
+76 verbose linkMans superagent-charset@0.1.1
+77 verbose rebuildBundles superagent-charset@0.1.1
+78 verbose rebuildBundles [ 'iconv-lite' ]
+79 info install superagent-charset@0.1.1
+80 info postinstall superagent-charset@0.1.1
+81 info install lesson03@1.0.0
+82 info postinstall lesson03@1.0.0
+83 info prepublish lesson03@1.0.0
+84 verbose validateInstall loading /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03/package.json for validation
+85 verbose stack Error: The package superagent@0.20.0 does not satisfy its siblings' peerDependencies requirements!
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/lib/install.js:125:32
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/lib/install.js:268:7
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+85 verbose stack     at cb (/Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+85 verbose stack     at cb (/Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+85 verbose stack     at cb (/Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+85 verbose stack     at /Users/a000/nvm/versions/node/v4.1.2/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+86 verbose cwd /Users/a000/IDE/Blog/backup/node/node-lessons/lesson03
+87 error Darwin 14.5.0
+88 error argv "/Users/a000/nvm/versions/node/v4.1.2/bin/node" "/Users/a000/nvm/versions/node/v4.1.2/bin/npm" "install"
+89 error node v4.1.2
+90 error npm  v2.14.4
+91 error code EPEERINVALID
+92 error peerinvalid The package superagent@0.20.0 does not satisfy its siblings' peerDependencies requirements!
+92 error peerinvalid Peer superagent-charset@0.1.1 wants superagent@^1.3.0
+93 verbose exit [ 1, true ]
